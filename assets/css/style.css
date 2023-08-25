@@ -1,0 +1,13 @@
+body {
+    position: relative;
+}
+
+#homeBackground {
+    /*   background: red;*/
+    height: 100vh;
+    background-image: url("../image/photo-1658660854207-8886b1d69bb8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1900px auto;
+
+}

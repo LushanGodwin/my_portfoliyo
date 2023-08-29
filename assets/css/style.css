@@ -3,11 +3,123 @@ body {
 }
 
 #homeBackground {
-    /*   background: red;*/
     height: 100vh;
     background-image: url("../image/photo-1658660854207-8886b1d69bb8.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1900px auto;
 
+}
+#homePagePhoto>div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#homePageAside>div{
+    width: 67px;
+    height: 500px;
+    background-color: #D9D9D9;
+    opacity: 30%;
+    position: absolute;
+    left: 130px;
+    top: 120px;
+    margin: auto;
+    border-radius: 10px;
+}
+#instagram{
+    position: relative;
+    left: 12px;
+    top: 20px;
+    margin: auto;
+}
+#whatsApp{
+    position:relative;
+    top: 70px;
+    left: 12px;
+    margin: auto;
+}
+#google{
+    position: relative;
+    top: 130px;
+    left: 12px;
+    margin: auto;
+}
+#github{
+    position: relative;
+    top: 190px;
+    left: 12px;
+    margin: auto;
+}
+#linkedin{
+    position: relative;
+    top: 250px;
+    left: 12px;
+    margin: auto;
+}
+#homePage{
+    position: relative;
+}
+#homePage>h2{
+    color: #66FCF1;
+    font-size: 70px;
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    margin: auto;
+}
+#homePage>h1{
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    left: 250px;
+    top: 320px;
+    margin: auto;
+}
+#homePage>h4{
+    color: #66FCF1;
+    font-size: 50px;
+    position: absolute;
+    left: 250px;
+    top: 400px;
+    margin: auto;
+}
+#homePageFooter{
+    position: relative;
+}
+#homePageFooter>nav>div{
+    width: 850px;
+    height: 50px;
+    background-color: #959595;
+    position: absolute;
+    top:500px;
+    left: 250px;
+    margin: auto;
+    border-radius: 10px;
+}
+#homePageFooter>nav>div{
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    /*color: white;*/
+    top: 650px;
+    left: 250px;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#homePageFooter>nav>div>div>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2px;
+}
+#aboutPage{
+    position: relative;
+    height: 100vh;
+    background-image: url("../image/1146731 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1900px auto;
 }

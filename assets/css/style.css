@@ -291,6 +291,7 @@ body {
     position: absolute;
     margin-left: 100px;
     margin-top: 90px;
+    box-shadow: #73BBC9 5px 5px 3px;
 }
 #educationPage>main>div:first-child>h4{
     text-decoration: none;
@@ -322,6 +323,7 @@ body {
     position: absolute;
     margin-left: 550px;
     margin-top: 90px;
+    box-shadow: #73BBC9 5px 5px 3px;
 }
 #educationPage>main>div:nth-child(2)>h4{
     text-decoration: none;
@@ -353,6 +355,7 @@ body {
     position: absolute;
     margin-left: 1000px;
     margin-top: 90px;
+    box-shadow: #73BBC9 5px 5px 3px;
 }
 #educationPage>main>div:nth-child(3)>h4{
     text-decoration: none;
@@ -384,6 +387,7 @@ body {
     position: absolute;
     margin-left: 100px;
     margin-top:350px ;
+    box-shadow: #73BBC9 5px 5px 3px;
 }
 #educationPage>main>div:nth-child(4)>h4{
     text-decoration: none;
@@ -415,6 +419,7 @@ body {
     position: absolute;
     margin-left: 550px;
     margin-top:350px ;
+    box-shadow: #73BBC9 5px 5px 3px;
 }
 #educationPage>main>div:nth-child(5)>img{
     position: absolute;
@@ -446,7 +451,7 @@ body {
     position: absolute;
     margin-left: 1000px;
     margin-top: 350px;
-    box-shadow: #FBA1B7 5px 5px 3px;
+    box-shadow: #73BBC9 5px 5px 3px;
 }
 #educationPage>main>div:last-child>img{
     position: absolute;

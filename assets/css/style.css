@@ -483,3 +483,189 @@ body {
     bottom: 10px;
     margin: auto;
 }
+#projectPage{
+    position: relative;
+    height: 100vh;
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 100%;
+    background-size: 1900px auto;
+}
+#projectPage>header>h1{
+    position: absolute;
+    color: #F5F5F5;
+    opacity: 35%;
+    font-size: 180px;
+    left: 850px;
+    margin: auto;
+}
+#projectPage>aside>div>h3{
+    font-size: 30px;
+    color: #F5F5F5;
+    position: absolute;
+    left: 150px;
+    top: 8px;
+    margin: auto;
+}
+#projectPage>aside>div{
+    width: 300px;
+    height: 50px;
+    background-color: #5F6160;
+    opacity: 50%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+#projectPage>main>section>div:first-child{
+    width: 300px;
+    height: 400px;
+    background-color: #686B6E;
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+#projectPage>main>section>div:first-child>img{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    margin: auto;
+}
+#projectPage>main>section>div:first-child>h4{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    left:25px;
+    top: 190px;
+    margin: auto;
+}
+#projectPage>main>section>div:first-child>h5{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    left:25px;
+    top: 250px;
+    margin: auto;
+}
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #F7FD04;
+    /*color: #3B3B3B;*/
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    /*padding: 16px 24px;*/
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    position: absolute;
+    left: 105px;
+    bottom: 20px;
+    margin: auto;
+}
+
+.button-28:disabled {
+    pointer-events: none;
+}
+
+.button-28:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+#projectPage>main>section>div:nth-child(2){
+    width: 300px;
+    height: 400px;
+    background-color: #686B6E;
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 300px;
+}
+#projectPage>main>section>div:nth-child(2)>img{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    margin: auto;
+}
+#projectPage>main>section>div:nth-child(2)>h4{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    left:25px;
+    top: 190px;
+    margin: auto;
+}
+#projectPage>main>section>div:nth-child(2)>h5{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    left:25px;
+    top: 250px;
+    margin: auto;
+}
+#projectPage>main>section>div:last-child{
+    width: 300px;
+    height: 400px;
+    background-color: #686B6E;
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 300px;
+}
+#projectPage>main>section>div:last-child>img{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    margin: auto;
+}
+#projectPage>main>section>div:last-child>h4{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    left:25px;
+    top: 190px;
+    margin: auto;
+}
+#projectPage>main>section>div:last-child>h5{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    left:25px;
+    top: 270px;
+    margin: auto;
+}
+
+

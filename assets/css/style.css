@@ -254,3 +254,227 @@ body {
     color: whitesmoke;
     margin-right: 2px;
 }
+#educationPage{
+    position: relative;
+    height: 100vh;
+    background-image: url("../image/photo-1658660854207-8886b1d69bb8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1900px auto;
+}
+#educationPage>header>div{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #5F6160;
+    opacity: 50%;
+    position: absolute;
+    left: 520px;
+    margin: auto;
+}
+#educationPage>header>div>h3{
+    color: #66FCF1;
+    font-size: 35px;
+    position: absolute;
+    left: 125px;
+    margin: auto;
+}
+#educationPage>main{
+    position: relative;
+}
+#educationPage>main>div:first-child{
+    width: 330px;
+    height: 200px;
+    background-color: #FFFFFF;
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+#educationPage>main>div:first-child>h4{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 110px;
+    top: 20px;
+    margin: auto;
+}
+#educationPage>main>div:first-child>img{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    margin: auto;
+}
+#educationPage>main>div:first-child>p{
+    position: absolute;
+    left: 145px;
+    top: 100px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(2){
+    width: 330px;
+    height: 200px;
+    background-color: #FFFFFF;
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 90px;
+}
+#educationPage>main>div:nth-child(2)>h4{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 110px;
+    top: 20px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(2)>img{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(2)>p{
+    position: absolute;
+    left: 145px;
+    top: 100px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(3){
+    width: 330px;
+    height: 200px;
+    background-color: #FFFFFF;
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 90px;
+}
+#educationPage>main>div:nth-child(3)>h4{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 110px;
+    top: 20px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(3)>img{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(3)>p{
+    position: absolute;
+    left: 145px;
+    top: 100px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(4){
+    width: 330px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    opacity: 50%;
+    position: absolute;
+    margin-left: 100px;
+    margin-top:350px ;
+}
+#educationPage>main>div:nth-child(4)>h4{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 110px;
+    top: 20px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(4)>img{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(4)>p{
+    position: absolute;
+    left: 145px;
+    top: 100px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(5){
+    width: 330px;
+    height: 200px;
+    background-color: #FFFFFF;
+    opacity: 50%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 550px;
+    margin-top:350px ;
+}
+#educationPage>main>div:nth-child(5)>img{
+    position: absolute;
+    top: 50px;
+    left: 6px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(5)>h4{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    margin: auto;
+}
+#educationPage>main>div:nth-child(5)>p{
+    position: absolute;
+    left: 145px;
+    top: 100px;
+    margin: auto;
+}
+#educationPage>main>div:last-child{
+    width: 330px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 50%;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 350px;
+    box-shadow: #FBA1B7 5px 5px 3px;
+}
+#educationPage>main>div:last-child>img{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    margin: auto;
+}
+#educationPage>main>div:last-child>h4{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    margin: auto;
+}
+#educationPage>main>div:last-child>p{
+    position: absolute;
+    left: 145px;
+    top: 100px;
+    margin: auto;
+}
+#educationPage>footer>h1{
+    position: absolute;
+    color: #F5F5F5;
+    opacity: 35%;
+    font-size: 180px;
+    left: 20px;
+    bottom: 10px;
+    margin: auto;
+}

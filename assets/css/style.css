@@ -559,7 +559,7 @@ body {
     border: 2px solid #1A1A1A;
     border-radius: 15px;
     box-sizing: border-box;
-    color: #F7FD04;
+    color: #C2DED1;
     /*color: #3B3B3B;*/
     cursor: pointer;
     display: inline-block;
@@ -665,6 +665,227 @@ body {
     position: absolute;
     left:25px;
     top: 270px;
+    margin: auto;
+}
+#assignmentPage{
+    position: relative;
+    height: 100vh;
+    background-image: url("../image/photo-1658660854207-8886b1d69bb8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1900px auto;
+}
+#assignmentPage>header>div{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #5F6160;
+    opacity: 50%;
+    position: absolute;
+    left: 520px;
+    margin: auto;
+}
+#assignmentPage>header>div>h3{
+    color: #66FCF1;
+    font-size: 35px;
+    position: absolute;
+    left: 125px;
+    margin: auto;
+}
+#assignmentPage>main{
+    position: relative;
+}
+#assignmentPage>main>div:first-child{
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 180px;
+    top: 80px;
+    margin: auto;
+}
+#assignmentPage>main>div>h5{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    left:25px;
+    top: 10px;
+    margin: auto;
+}
+.button-81 {
+    background-color: #fff;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    /*display: inline-block;*/
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    width: 150px;
+    height: 40px;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    bottom: 2px;
+    left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-81:hover {
+    background-color: #1e293b;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .button-81 {
+        font-size: 1.125rem;
+        padding: 1rem 2rem;
+    }
+}
+#assignmentPage>main>div:nth-child(2){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 480px;
+    top: 80px;
+    margin: auto;
+}
+#assignmentPage>main>div:nth-child(3){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 780px;
+    top: 80px;
+    margin: auto;
+}
+#assignmentPage>main>div:nth-child(4){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 1080px;
+    top: 80px;
+    margin: auto;
+}
+#assignmentPage>main>div:nth-child(5){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 180px;
+    top: 240px;
+    margin: auto;
+}
+#assignmentPage>main>div:nth-child(6){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 480px;
+    top: 240px;
+    margin: auto;
+}
+#assignmentPage>main>div:nth-child(7){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 780px;
+    top: 240px;
+    margin: auto;
+}
+#assignmentPage>main>div:nth-child(8){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 1080px;
+    top: 240px;
+    margin: auto;
+}
+#assignmentPage>main>div:nth-child(9){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 180px;
+    top: 400px;
+    margin: auto;
+}
+#assignmentPage>main>div:nth-child(10){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 480px;
+    top: 400px;
+    margin: auto;
+}
+#assignmentPage>main>div:nth-child(11){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 780px;
+    top: 400px;
+    margin: auto;
+}
+#assignmentPage>main>div:nth-child(12){
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    border-radius: 10px;
+    position: absolute;
+    left: 1080px;
+    top: 400px;
+    margin: auto;
+}
+#assignmentPage>footer>h1{
+    position: absolute;
+    color: #F5F5F5;
+    opacity: 35%;
+    font-size: 180px;
+    left: 20px;
+    bottom: 10px;
     margin: auto;
 }
 

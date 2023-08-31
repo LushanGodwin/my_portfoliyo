@@ -21,14 +21,18 @@ body {
 #homePageAside>div{
     width: 67px;
     height: 500px;
-    background-color: #D9D9D9;
-    opacity: 30%;
+    background-color: #1A1A1A;
+    /*background-color: #D9D9D9;*/
+    /*opacity: 30%;*/
     position: absolute;
     left: 130px;
     top: 120px;
     margin: auto;
     border-radius: 10px;
 }
+/*#homePageAside>div>img{
+    opacity: 100%;
+}*/
 #instagram{
     position: relative;
     left: 12px;
@@ -888,5 +892,123 @@ body {
     bottom: 10px;
     margin: auto;
 }
-
+#skillPage{
+    position: relative;
+    height: 100vh;
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 100%;
+    background-size: 1900px auto;
+}
+#skillPage>header>h1{
+    position: absolute;
+    color: #F5F5F5;
+    opacity: 35%;
+    font-size: 180px;
+    left: 950px;
+    margin: auto;
+}
+#skillPage>aside>div{
+    width: 300px;
+    height: 50px;
+    background-color: #5F6160;
+    opacity: 50%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+#skillPage>aside>div>h3{
+    font-size: 30px;
+    color: #F5F5F5;
+    position: absolute;
+    left: 150px;
+    top: 8px;
+    margin: auto;
+}
+#skillPage>main>section>div:first-child{
+    position: relative;
+    top: 300px;
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #5F6160;
+    opacity: 50%;
+}
+#skillPage>main>section>div:first-child>img:first-child{
+    position: absolute;
+    top: 28px;
+    left: 50px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#skillPage>main>section>div:first-child>img:nth-child(2){
+    position: absolute;
+    top: 28px;
+    left: 160px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#skillPage>main>section>div:first-child>img:nth-child(3){
+    position: absolute;
+    top: 28px;
+    left: 270px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#skillPage>main>section>div:first-child>img:nth-child(4){
+    position: absolute;
+    top: 28px;
+    left: 390px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#skillPage>main>section>div:first-child>img:last-child{
+    position: absolute;
+    top: 28px;
+    left: 500px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#skillPage>main>section>div:last-child{
+    position: relative;
+    top: 350px;
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #5F6160;
+    opacity: 50%;
+}
+#skillPage>main>section>div:last-child>img:first-child{
+    position: absolute;
+    top: 28px;
+    left: 110px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#skillPage>main>section>div:last-child>img:nth-child(2){
+    position: absolute;
+    top: 28px;
+    left: 220px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#skillPage>main>section>div:last-child>img:nth-child(3){
+    position: absolute;
+    top: 28px;
+    left: 330px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#skillPage>main>section>div:last-child>img:last-child{
+    position: absolute;
+    top: 28px;
+    left: 450px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
 

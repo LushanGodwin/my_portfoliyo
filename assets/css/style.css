@@ -1,5 +1,6 @@
 body {
     position: relative;
+    margin: 0;
 }
 
 #homeBackground {
@@ -15,8 +16,9 @@ body {
     top: 0;
     right: 0;
     margin: auto;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
 }
 #homePageAside>div{
     width: 67px;
@@ -87,7 +89,7 @@ body {
     font-size: 50px;
     position: absolute;
     left: 250px;
-    top: 400px;
+    top: 420px;
     margin: auto;
 }
 #homePageFooter{
@@ -118,6 +120,147 @@ body {
     text-decoration: none;
     color: black;
     margin-right: 2px;
+}
+@media (max-width: 1440px) {
+    #homeBackground {
+        background-size: cover;
+    }
+
+    #homePage>h2 {
+        font-size: 65px;
+        left: 300px;
+    }
+
+    #homePage>h1 {
+        font-size: 85px;
+        left: 300px;
+    }
+
+    #homePage>h4 {
+        font-size: 50px;
+        left: 300px;
+    }
+
+    #homePageAside>div {
+        width: 80px;
+        height: 500px;
+        left: 150px;
+    }
+
+    #homePageFooter>nav>div {
+        width: 800px;
+        height: 40px;
+        font-size: 26px;
+        top: 650px;
+    }
+
+    #homePagePhoto>div {
+        /* Adjust the size of #homePagePhoto>div as needed */
+        width:400px;
+        height: 700px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    #instagram, #whatsApp, #google, #github, #linkedin {
+        width: 300px;
+        height: 300px;
+        left: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    #homeBackground {
+        background-size: cover;
+    }
+
+    #homePage>h2 {
+        font-size: 40px;
+        left: 220px;
+    }
+
+    #homePage>h1 {
+        font-size: 60px;
+        left: 220px;
+        top: 300px;
+    }
+
+    #homePage>h4 {
+        font-size: 35px;
+        left: 220px;
+        top: 370px;
+    }
+
+    #homePageFooter>nav>div {
+        width: 480px;
+        height: 30px;
+        font-size: 15px;
+        top: 550px;
+    }
+
+    #homePagePhoto>div {
+        /* Adjust the size of #homePagePhoto>div as needed */
+        width: 350px;
+        height: 500px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    #homePageAside>div {
+        width: 60px;
+        height: 500px;
+        left: 100px;
+    }
+
+    #instagram, #whatsApp, #google, #github, #linkedin {
+        left: 10px;
+    }
+}
+@media (max-width: 768px) {
+    #homeBackground {
+        background-size: cover;
+    }
+
+    #homePage>h2 {
+        font-size: 38px;
+        left: 160px;
+    }
+
+    #homePage>h1 {
+        font-size: 47px;
+        left: 160px;
+    }
+
+    #homePage>h4 {
+        font-size: 30px;
+        left: 160px;
+        top: 350px;
+    }
+
+    #homePageFooter>nav>div {
+        width: 450px;
+        font-size: 15px;
+        top: 550px;
+        left: 200px;
+    }
+
+    #homePagePhoto>div {
+        /* Adjust the size of #homePagePhoto>div as needed */
+        width: 280px;
+        height: 500px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    #homePageAside>div {
+        width: 60px;
+        height: 470px;
+        left: 80px;
+    }
+
+    #instagram, #whatsApp, #google, #github, #linkedin {
+        /* Adjust the position of the social icons as needed */
+        left: 10px;
+    }
 }
 #aboutPage{
     position: relative;
@@ -169,7 +312,7 @@ body {
     top: 300px;
     margin: auto;
 }
-/*#aboutPage>section>div{
+#aboutPage>section>div{
     width: 220px;
     height: 50px;
     background-color: #5F6160;
@@ -179,7 +322,7 @@ body {
     left: 800px;
     bottom: 150px;
     margin: auto;
-}*/
+}
 #aboutPage>section>.button-86{
     all: unset;
     width: 100px;
@@ -248,10 +391,11 @@ body {
 .button-86:active::after {
     transition: 0s;
     transform: translate(0, 5%);
-}
-    /*width: 200px;
+
+    width: 200px;
     height: 35px;
-    border-radius: 15px;*/
+    border-radius: 15px;
+}
 
 #aboutPage>section>button>a{
     text-decoration: none;
@@ -1019,6 +1163,21 @@ body {
     background-position: center;
     background-size: 1900px auto;
 
+}
+#galleryPage>main{
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 10px; /* Adjust the gap between grid items as needed */
+    justify-content: center; /* Center items horizontally */
+    align-content: center; /* Center items vertically */
+
+}
+#galleryPage>main>img{
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto;
 }
 #galleryPage>footer>h1{
     position: absolute;

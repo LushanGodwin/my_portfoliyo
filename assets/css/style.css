@@ -1164,9 +1164,9 @@ body {
     background-size: 1900px auto;
 
 }
-#galleryPage>main{
+#galleryPage>main>div{
     position: absolute;
-    left: 200px;
+    left: 150px;
     top: 60px;
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
     grid-template-rows: repeat(2, 1fr); /* 2 rows */

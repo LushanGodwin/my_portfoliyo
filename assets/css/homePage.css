@@ -143,3 +143,152 @@ span {
         border-color: transparent;
     }
 }
+
+/*-------------------------add media query-----------------------------*/
+
+/* Media Query for max-width 1440px */
+@media all and (max-width: 1440px) {
+    #homeBackground {
+        height: auto;
+    }
+
+    #homeBackground>video {
+        width: 100%;
+        height: auto;
+    }
+
+    #homePagePhoto>div {
+        width: 450px;
+        top: 125px;
+        right: 60px;
+    }
+
+    #homePageAside>div {
+        width: 67px;
+        height: 500px;
+        left: 130px;
+        top: 163px;
+    }
+
+    #homePage>h2 {
+        font-size: 50px;
+        top: 250px;
+    }
+
+    #homePage>h1 {
+        font-size: 70px;
+        top: 320px;
+    }
+
+    #homePage>h4 {
+        font-size: 40px;
+        top: 420px;
+    }
+
+    #homePageFooter>nav>div {
+        width: 880px;
+        top: 650px;
+        left: 250px;
+    }
+}
+
+/* Media Query for max-width 1024px */
+@media all and (max-width: 1024px) {
+    #homeBackground {
+        height: auto;
+    }
+
+    #homeBackground>video {
+        width: 1024px;
+        height: auto;
+    }
+
+    #homePagePhoto>div {
+        width: 379px;
+        top: 40px;
+        right: 20px;
+    }
+
+    #homePageAside>div {
+        width: 64px;
+        height: 486px;
+        left: 92px;
+        top: 118px;
+    }
+
+    #homePage>h2 {
+        font-size: 40px;
+        top: 326px;
+    }
+
+    #homePage>h1 {
+        font-size: 60px;
+        top: 376px;
+    }
+
+    #homePage>h4 {
+        font-size: 30px;
+        top: 455px;
+    }
+
+    #homePageFooter>nav>div {
+        width: 629px;
+        top: 640px;
+        left: 190px;
+        font-size: 17px;
+        padding-left: 53px;
+        padding-top: 17px;
+    }
+}
+
+/* Media Query for max-width 768px */
+@media (max-width: 768px) {
+    #homeBackground {
+        height: auto;
+    }
+
+    #homeBackground>video {
+        width: 768px;
+        height: auto;
+    }
+
+    #homePagePhoto>div {
+        width: 392px;
+        top: 90px;
+        right: 20px;
+    }
+
+    #homePageAside>div {
+        width: 65px;
+        height: 489px;
+        left: 30px;
+        top: 151px;
+    }
+
+    #homePage>h2 {
+        font-size: 30px;
+        top: 466px;
+        left: 150px;
+    }
+
+    #homePage>h1 {
+        font-size: 45px;
+        top: 507px;
+        left: 150px;
+    }
+
+    #homePage>h4 {
+        font-size: 25px;
+        top: 564px;
+        left: 150px;
+    }
+
+    #homePageFooter>nav>div {
+        width: 506px;
+        font-size: 15px;
+        top: 705px;
+        left: 126px;
+        padding-left: 22px;
+    }
+}
+

@@ -1,0 +1,145 @@
+#homeBackground{
+    position: relative;
+    height: 100vh;
+}
+#homeBackground>video{
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+
+}
+#hero-overlayer {
+    background: rgba(35,45,57,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+#homePagePhoto>div{
+    background-image: url("../image/myPhotoHome.jpg");
+    background-position: top right;
+    width: 450px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    margin: auto;
+    overflow: hidden;
+    animation: card 2s infinite;
+}
+@keyframes card {
+    0% {
+        transform: translateY(-3px);
+    }
+    50% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(-3px);
+    }
+}
+#homePageAside>div{
+    width: 67px;
+    height: 500px;
+    background-color: #1A1A1A;
+    /*background-color: #D9D9D9;*/
+    /*opacity: 30%;*/
+    position: absolute;
+    left: 130px;
+    top: 120px;
+    margin: auto;
+    border-radius: 10px;
+}
+#instagram{
+    position: relative;
+    left: 12px;
+    top: 20px;
+    margin: auto;
+}
+#whatsApp{
+    position:relative;
+    top: 70px;
+    left: 12px;
+    margin: auto;
+}
+#google{
+    position: relative;
+    top: 130px;
+    left: 12px;
+    margin: auto;
+}
+#github{
+    position: relative;
+    top: 190px;
+    left: 12px;
+    margin: auto;
+}
+#linkedin{
+    position: relative;
+    top: 250px;
+    left: 12px;
+    margin: auto;
+}
+#homePage>h2{
+    color: #66FCF1;
+    font-size: 70px;
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    margin: auto;
+}
+#homePage>h1{
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    left: 250px;
+    top: 320px;
+    margin: auto;
+}
+#homePage>h4{
+    color: #66FCF1;
+    font-size: 50px;
+    position: absolute;
+    left: 250px;
+    top: 420px;
+    margin: auto;
+}
+#homePageFooter>nav>div{
+    width: 880px;
+    height: 50px;
+    background-color: #959595;
+    position: absolute;
+    top:650px;
+    left: 400px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 25px;
+    color: black;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+#homePageFooter>nav>div>div>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2px;
+}
+body>section>h4:first-child {
+    font-size: 5em;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'tradegothiclt-bold', sans-serif;
+}
+
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}

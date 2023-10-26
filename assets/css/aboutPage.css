@@ -140,3 +140,157 @@
     color: whitesmoke;
     margin-right: 2px;
 }
+
+/*--------------------------- media query --------------------------------*/
+
+/* Media Query for max-width 1024px */
+@media (max-width: 1440px) {
+
+    #aboutPage>header>h1 {
+        font-size: 180px;
+        left: 850px;
+        top: 25px;
+    }
+
+    #aboutPage>aside>div {
+        width: 300px;
+        top: 125px;
+    }
+
+    #aboutPage>aside>div>h3 {
+        font-size: 30px;
+        left: 149px;
+    }
+
+    #aboutPage>figure {
+        top: 261px;
+        left: 909px;
+    }
+
+    #aboutPage>main>div {
+        width: 600px;
+        height: 350px;
+        top: 264px;
+        left: 198px;
+    }
+
+    #aboutPage>main>div>p {
+        font-size: 20px;
+    }
+
+    #aboutPage>section>div {
+        width: 180px;
+        bottom: 100px;
+    }
+
+    #aboutPage>section>.button-86 {
+        width: 125px;
+        height: 24px;
+        font-size: 20px;
+        left: 666px;
+        bottom: 181px;
+    }
+}
+
+/* Media Query for max-width 1024px */
+@media (max-width: 1024px) {
+    #aboutPage>header>h1 {
+        font-size: 150px;
+        left: 560px;
+        top: 25px;
+    }
+
+    #aboutPage>aside>div {
+        width: 275px;
+        top: 100px;
+    }
+
+    #aboutPage>aside>div>h3 {
+        font-size: 28px;
+        left: 136px;
+    }
+
+    #aboutPage>figure{
+        width: 350px;
+        top: 260px;
+        left: 578px;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    #aboutPage>main>div {
+        width: 500px;
+        height: 300px;
+        top: 264px;
+        left: 51px;
+    }
+
+    #aboutPage>main>div>p {
+        font-size: 18px;
+    }
+
+    #aboutPage>section>div {
+        width: 140px;
+        bottom: 70px;
+    }
+
+    #aboutPage>section>.button-86 {
+        width: 96px;
+        height: 18px;
+        font-size: 15px;
+        left: 394px;
+        bottom: 181px;
+    }
+}
+
+/* Media Query for max-width 768px */
+@media (max-width: 768px) {
+    #aboutPage>header>h1 {
+        font-size: 150px;
+        left: 318px;
+        top: 8px;
+    }
+
+    #aboutPage>aside>div {
+        width: 270px;
+        top: 92px;
+    }
+
+    #aboutPage>aside>div>h3 {
+        font-size: 28px;
+        left: 130px;
+    }
+
+    #aboutPage>figure {
+        width: 328px;
+        top: 260px;
+        left: 414px;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    #aboutPage>main>div {
+        width: 358px;
+        height: 400px;
+        top: 263px;
+        left: 51px;
+    }
+
+    #aboutPage>main>div>p {
+        font-size: 15px;
+    }
+
+    #aboutPage>section>div {
+        width: 100px;
+        bottom: 50px;
+    }
+
+    #aboutPage>section>.button-86 {
+        width: 96px;
+        height: 18px;
+        font-size: 15px;
+        left: 257px;
+        bottom: 181px;
+    }
+}
+

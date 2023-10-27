@@ -30,7 +30,9 @@
     margin: auto;
     border-radius: 10px;
 }
-
+.card1-info>p{
+    color: white;
+}
 .project{
     position: absolute;
     color: white;

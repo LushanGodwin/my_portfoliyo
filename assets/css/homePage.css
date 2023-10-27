@@ -118,13 +118,20 @@
     border-radius: 10px;
     font-size: 25px;
     color: black;
-    padding-left: 50px;
     padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#homePageFooter>nav>div>i{
+    display: none;
 }
 #homePageFooter>nav>div>div>a{
     text-decoration: none;
     color: black;
     margin-right: 2px;
+}
+#homePageFooter>nav>div>div>a:hover{
+    color: #ef0;
 }
 body>section>h4:first-child {
     font-size: 5em;
@@ -190,6 +197,10 @@ span {
         top: 650px;
         left: 250px;
     }
+
+    #homePageFooter>nav>div>div>a:hover{
+        color: #ef0;
+    }
 }
 
 /* Media Query for max-width 1024px */
@@ -238,6 +249,10 @@ span {
         font-size: 17px;
         padding-left: 53px;
         padding-top: 17px;
+    }
+
+    #homePageFooter>nav>div>div>a:hover{
+        color: #ef0;
     }
 }
 
@@ -290,5 +305,186 @@ span {
         left: 126px;
         padding-left: 22px;
     }
+
+    #homePageFooter>nav>div>div>a:hover{
+        color: #ef0;
+    }
 }
+
+/* Media Query for max-width 425px */
+@media (max-width: 426px) {
+    #homePageFooter>nav>div>i{
+        display: block;
+    }
+
+    #homePageFooter>nav>div>div{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        padding: 0.5%;
+        transform: scale(0);
+    }
+
+    .toggle-btn.active:before{
+        content: '\f00d';
+    }
+
+    #homePageFooter>nav>div>div>a{
+        display: block;
+        text-align: right;
+        margin: 10px;
+        font-size: 20px;
+        color: white;
+    }
+
+    #homePageFooter>nav>div>div.active{
+        transform: scale(1);
+    }
+
+    #homePageFooter>nav>div.active{
+        width: 150px;
+        right: -140px;
+    }
+
+    #homePageFooter>nav>div{
+        width: 50px;
+        height: 50px;
+        background-color: #959595;
+        position: absolute;
+        top:50px;
+        right: -200px;
+        margin: auto;
+        border-radius: 10px;
+        font-size: 25px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #homePage>h1{
+        font-size: 35px;
+        top: 635px;
+        left: 114px;
+    }
+
+    #homePage>h2{
+        top: 597px;
+        left: 114px;
+    }
+
+    #homePage>h4{
+        top: 681px;
+        left: 114px;
+    }
+
+    #homePageAside>div{
+        width: 65px;
+        height: 489px;
+        left: 10px;
+        top: 277px;
+    }
+
+    #homePagePhoto>div{
+        width: 392px;
+        top: 164px;
+        right: 20px;
+    }
+
+    #homePageFooter>nav>div>div>a:hover{
+        color: #ef0;
+    }
+}
+
+/* Media Query for max-width 375px */
+@media (max-width: 376px) {
+    #homePageFooter>nav>div>i{
+        display: block;
+    }
+
+    #homePageFooter>nav>div>div{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        padding: 0.5%;
+        transform: scale(0);
+    }
+
+    .toggle-btn.active:before{
+        content: '\f00d';
+    }
+
+    #homePageFooter>nav>div>div>a{
+        display: block;
+        text-align: right;
+        margin: 10px;
+        font-size: 20px;
+        color: white;
+    }
+
+    #homePageFooter>nav>div>div.active{
+        transform: scale(1);
+    }
+
+    #homePageFooter>nav>div.active{
+        width: 150px;
+        right: -93px;
+    }
+
+    #homePageFooter>nav>div{
+        width: 50px;
+        height: 50px;
+        background-color: #959595;
+        position: absolute;
+        top:50px;
+        right: -169px;
+        margin: auto;
+        border-radius: 10px;
+        font-size: 25px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #homePage>h1{
+        font-size: 30px;
+        top: 633px;
+        left: 106px;
+    }
+
+    #homePage>h2{
+        top: 585px;
+        left: 105px;
+    }
+
+    #homePage>h4{
+        top: 672px;
+        left: 105px;
+    }
+
+    #homePageAside>div{
+        width: 65px;
+        height: 489px;
+        left: 10px;
+        top: 277px;
+    }
+
+    #homePagePhoto>div{
+        width: 355px;
+        top: 154px;
+        right: 9px;
+    }
+
+    #homePageFooter>nav>div>div>a:hover{
+        color: #ef0;
+    }
+}
+
 

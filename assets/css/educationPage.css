@@ -32,7 +32,7 @@
     height: 300px;
     width: 750px;
     top: 200px;
-    left: calc(50% - 350px);
+    left: 400px;
     display: flex;
 }
 
@@ -248,19 +248,19 @@ svg {
         height: 1014px;
     }
     #educationPage>header>div {
-        width: 500px;
-        left: 212px;
+        width: 400px;
+        left: 193px;
     }
 
     #educationPage>header>div>h3 {
         font-size: 40px;
-        left: 160px;
+        left: 117px;
     }
 
     .container01 {
         width: 575px;
         top: 353px;
-        left: 170px;
+        left: 120px;
     }
 
     .card01 {
@@ -293,4 +293,121 @@ svg {
         font-size: 130px;
     }
 }
+
+/* Media Query for max-width 425px */
+@media (max-width: 426px) {
+    #educationPage>header>div {
+        width: 296px;
+        left: 62px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 40px;
+        left:66px;
+    }
+
+    .container01 {
+        display: flex;
+        width: 386px;
+        top: 156px;
+        left: 58px;
+        flex-wrap: wrap;
+    }
+
+    .card01 {
+        margin: 0;
+        width: 180px;
+        height: 250px;
+    }
+
+    .title {
+        font-size: 18px;
+        left: 21px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 77px;
+        left: 0;
+    }
+}
+
+/* Media Query for max-width 375px */
+@media (max-width: 376px) {
+    #educationPage>header>div {
+        width: 244px;
+        left: 62px;
+    }
+
+    #educationPage>header>div>h3 {
+        font-size: 40px;
+        left: 39px;
+    }
+
+    .container01 {
+        display: flex;
+        width: 350px;
+        top: 156px;
+        left: 58px;
+        flex-wrap: wrap;
+    }
+
+    .card01 {
+        margin: 0;
+        width: 168px;
+        height: 250px;
+    }
+
+    .card01:hover ~ .card01 {
+        position: relative;
+        left: 21px;
+        transition: 0.4s ease-out;
+    }
+
+    .title {
+        font-size: 18px;
+        left: 21px;
+    }
+
+    .bar {
+        top: 90px;
+        left: 10px;
+    }
+
+    .emptybar {
+        width: 80%;
+    }
+
+    .filledbar {
+        width: 90px;
+    }
+
+    .circle {
+        left: calc(50% - 50px);
+    }
+
+    #educationPage>footer>h1 {
+        font-size: 77px;
+        left: 0;
+    }
+}
+
+
+
 

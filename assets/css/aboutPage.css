@@ -143,7 +143,7 @@
 
 /*--------------------------- media query --------------------------------*/
 
-/* Media Query for max-width 1024px */
+/* Media Query for max-width 1440px */
 @media (max-width: 1440px) {
 
     #aboutPage>header>h1 {
@@ -293,4 +293,110 @@
         bottom: 181px;
     }
 }
+
+/* Media Query for max-width 425px */
+@media (max-width: 426px) {
+    #aboutPage>header>h1 {
+        font-size: 80px;
+        left: 180px;
+        top: 22px;
+    }
+
+    #aboutPage>aside>div {
+        width: 119px;
+        top: 46px;
+    }
+
+    #aboutPage>aside>div>h3 {
+        font-size: 20px;
+        left: 13px;
+        top: 15px;
+    }
+
+    #aboutPage>figure {
+        width: 328px;
+        top: 129px;
+        left: 53px;
+        height: 346px;
+        overflow: hidden;
+    }
+
+    #aboutPage>main>div {
+        width: 350px;
+        height: 400px;
+        top: 484px;
+        left: 51px;
+    }
+
+    #aboutPage>main>div>p {
+        font-size: 15px;
+    }
+
+    #aboutPage>section>div {
+        width: 100px;
+        bottom: 50px;
+    }
+
+    #aboutPage>section>.button-86 {
+        width: 79px;
+        height: 15px;
+        font-size: 15px;
+        left: 249px;
+        bottom: 380px;
+    }
+}
+
+/* Media Query for max-width 375px */
+@media (max-width: 376px) {
+    #aboutPage>header>h1 {
+        font-size: 80px;
+        left: 136px;
+        top: 22px;
+    }
+
+    #aboutPage>aside>div {
+        width: 119px;
+        top: 46px;
+    }
+
+    #aboutPage>aside>div>h3 {
+        font-size: 20px;
+        left: 13px;
+        top: 15px;
+    }
+
+    #aboutPage>figure {
+        width: 328px;
+        top: 129px;
+        left: 24px;
+        height: 346px;
+        overflow: hidden;
+    }
+
+    #aboutPage>main>div {
+        width: 350px;
+        height: 400px;
+        top: 484px;
+        left:20px;
+    }
+
+    #aboutPage>main>div>p {
+        font-size: 15px;
+    }
+
+    #aboutPage>section>div {
+        width: 100px;
+        bottom: 50px;
+    }
+
+    #aboutPage>section>.button-86 {
+        width: 79px;
+        height: 15px;
+        font-size: 15px;
+        left: 219px;
+        bottom: 380px;
+    }
+}
+
+
 

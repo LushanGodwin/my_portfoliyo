@@ -29,3 +29,13 @@ document.addEventListener('DOMContentLoaded',function(event){
 
     StartTextAnimation(0);
 });
+
+const toggle_btn = document.querySelector('.toggle-btn');
+const nav_links = document.querySelector('#homePageFooter>nav>div>div');
+const nav_container = document.querySelector('#homePageFooter>nav>div');
+
+toggle_btn.addEventListener('click', () => {
+    toggle_btn.classList.toggle('active');
+    nav_links.classList.toggle('active');
+    nav_container.classList.toggle('active');
+})

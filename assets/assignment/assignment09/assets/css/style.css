@@ -1,0 +1,62 @@
+main{
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+span{
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 250px;
+    margin: auto;
+}
+#linePanel>div:first-child{
+    position: absolute;
+    width: 600px;
+    height: 2px;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 170px;
+    margin: auto;
+}
+#linePanel>div:last-child{
+    position: absolute;
+    width: 600px;
+    height: 2px;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#buttonPanel>button:first-child{
+    position: absolute;
+    bottom: 300px;
+    left: 700px;
+    font-size: 20px;
+}
+#buttonPanel>button:last-child{
+    position: absolute;
+    bottom: 300px;
+    left: 780px;
+    font-size: 20px;
+}
+#lightPanel{
+    position: absolute;
+    left: 455px;
+    top: 308px;
+}
+#lightPanel>div{
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    display: inline-block;
+}

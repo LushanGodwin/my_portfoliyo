@@ -8,7 +8,7 @@
     color: #F5F5F5;
     opacity: 35%;
     font-size: 180px;
-    left: 850px;
+    left: 800px;
     margin: auto;
 }
 #projectPage>aside>div>h3{
@@ -50,7 +50,7 @@
     background: var(--background);
     position: relative;
     top: 350px;
-    left: 250px;
+    left: 150px;
     z-index: 1;
 }
 

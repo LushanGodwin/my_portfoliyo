@@ -1,0 +1,63 @@
+#frame{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border: 10px solid #ff253a;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+    z-index: 999;
+}
+#frame>div{
+    width: calc(100% - 20px);
+    aspect-ratio: 1/1;
+    border: 10px solid firebrick;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+section{
+    position: absolute;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+section>div{
+    width: 180px;
+    aspect-ratio: 1/1;
+    background: deeppink;
+    border-radius: 100%;
+    margin-top: 285px;
+    margin-bottom: 285px;
+    position: relative;
+    /*margin: 285.4px 0px;*/
+}
+section>div:first-child{
+    background: purple;
+}
+section>div:nth-child(2){
+    background: blueviolet;
+}
+section>div:nth-child(3){
+    background: dodgerblue;
+}
+section>div>span{
+    position: absolute;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}

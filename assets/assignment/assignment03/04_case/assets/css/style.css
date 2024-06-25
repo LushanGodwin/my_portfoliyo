@@ -1,0 +1,57 @@
+/*section{
+    position: sticky;
+    top: 0;
+}*/
+.ch{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+section>div:first-child{
+    height: 50px;
+    color: white;
+}
+section>div:first-child>span{
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-weight: bold;
+}
+section>div:nth-child(2){
+    height: calc(100vh - 50px);
+    position: relative;
+}
+section>div:nth-child(2)>span{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 100px;
+}
+section:first-child>div:first-child{
+    background: red;
+}
+section:nth-child(2)>div:first-child{
+    background: firebrick;
+}
+section:nth-child(2)>div:nth-child(2){
+    background: bisque;
+}
+section:nth-child(3)>div:first-child{
+    background:brown;
+}
+section:nth-child(3)>div:nth-child(2){
+    background: darkkhaki;
+}
+section:nth-child(4)>div:first-child{
+    background: crimson;
+}
+section:nth-child(4)>div:nth-child(2){
+    background: burlywood;
+}

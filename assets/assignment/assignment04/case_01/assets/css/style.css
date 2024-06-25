@@ -1,0 +1,46 @@
+body>section{
+    position: absolute;
+    height: max-content;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+body > section > div {
+
+    width: 200px;
+    height: 60px;
+    background-color: purple;
+    position: relative;
+    margin-top: 10px;
+    right: 150px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0.50, 0.50, 0.50) 1.95px 1.95px 2.6px;
+}
+
+body > section > div:hover {
+
+    right: 0;
+    transition-duration: 2s;
+    transition-property: right;
+    cursor: pointer;
+
+}
+body > section > div >h3{
+
+    position: absolute;
+    height: max-content;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    margin: auto;
+}
+body > section > div > div{
+
+    position: absolute;
+    height: max-content;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    margin: auto;
+}
